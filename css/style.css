@@ -29,8 +29,9 @@ ul {
 	padding: 0;
 }
 
-#landing, #gallery {
-	height: 80vh;
+#landing,
+#gallery {
+	min-height: 80vh;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
@@ -44,4 +45,12 @@ ul {
 	border: 5px solid #f2f2f2;
 	margin: 25px;
 	width: 75%;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+#landing {
+	margin-top: 75px;
 }
